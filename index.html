@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      const firebaseConfig = {
+  apiKey: "AIzaSyCILGozbpzCZKZjAoCOoaRXPxJsEUa-y4U",
+  authDomain: "game-9eaba.firebaseapp.com",
+  databaseURL:"https://cargame7-b67b2-default-rtdb.firebaseio.com/",
+  projectId: "game-9eaba",
+  storageBucket: "game-9eaba.appspot.com",
+  messagingSenderId: "16858974467",
+  appId: "1:16858974467:web:7ce86410581599152bc136"
+};
+firebase.initializeApp(firebaseConfig);
+    </script>
+    
+
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
